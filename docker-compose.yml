@@ -1,0 +1,6 @@
+services:
+  rust:
+    image: rust:latest
+    volumes:
+      - .:/work
+    working_dir: /work
